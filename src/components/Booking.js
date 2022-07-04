@@ -16,12 +16,12 @@ function Booking() {
   function formSubmit(e) {
     e.preventDefault();
     if (
-      name === "" ||
-      email === "" ||
-      phone === "" ||
-      date === "" ||
-      time === "" ||
-      guest === ""
+      name   === "" ||
+      email  === "" ||
+      phone  === "" ||
+      date   === "" ||
+      time   === "" ||
+      guest  === ""
     ) {
       setError("Please fill out all fields");
       setTimeout(() => {
@@ -61,103 +61,70 @@ function Booking() {
           <div
             className="col-lg-4 reservation-img"
             style={{ backgroundImage: `url(${img})` }}
-            data-aos="zoom-out"
-            data-aos-delay="200"
           ></div>
 
           <div className="col-lg-8 d-flex align-items-center reservation-form-bg">
-            <form
-              action=""
-              method="post"
-              role="form"
-              className="php-email-form"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <form className="php-email-form">
               <div className="row gy-4">
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="text"
                     name="name"
                     className="form-control"
-                    id="name"
                     placeholder="Your Name"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
                     onChange={(e) => setName(e.target.value)}
                     value={name}
                   />
-                  <div className="validate"></div>
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="email"
                     className="form-control"
                     name="email"
-                    id="email"
                     placeholder="Your Email"
-                    data-rule="email"
-                    data-msg="Please enter a valid email"
                     onChange={(e) => setEmail(e.target.value)}
                     value={email}
                   />
-                  <div className="validate"></div>
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="text"
                     className="form-control"
                     name="phone"
-                    id="phone"
                     placeholder="Your Phone"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
                     onChange={(e) => setPhone(e.target.value)}
                     value={phone}
                   />
-                  <div className="validate"></div>
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="text"
                     name="date"
                     className="form-control"
-                    id="date"
                     placeholder="Date"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
                     onChange={(e) => setDate(e.target.value)}
                     value={date}
                   />
-                  <div className="validate"></div>
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="text"
                     className="form-control"
                     name="time"
-                    id="time"
                     placeholder="Time"
-                    data-rule="minlen:4"
-                    data-msg="Please enter at least 4 chars"
                     onChange={(e) => setTime(e.target.value)}
                     value={time}
                   />
-                  <div className="validate"></div>
                 </div>
                 <div className="col-lg-4 col-md-6">
                   <input
                     type="number"
                     className="form-control"
                     name="people"
-                    id="people"
                     placeholder="# of people"
-                    data-rule="minlen:1"
-                    data-msg="Please enter at least 1 chars"
                     onChange={(e) => setGuest(e.target.value)}
                     value={guest}
                   />
-                  <div className="validate"></div>
                 </div>
               </div>
               <div className="form-group mt-3">
@@ -169,7 +136,6 @@ function Booking() {
                   onChange={(e) => setMessage(e.target.value)}
                   value={message}
                 ></textarea>
-                <div className="validate"></div>
               </div>
               <div className="mb-3">
                 <div

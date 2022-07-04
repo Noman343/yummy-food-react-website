@@ -93,14 +93,6 @@ function Navbar() {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li>
-                {/* <NavLink
-            to="hero"
-            className={({ isActive }) =>
-              isActive ? "active" : "undefined"
-            }
-          >
-            Home
-          </NavLink> */}
                 <a
                   href="#hero"
                   className={heroActive ? "active" : null}

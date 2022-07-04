@@ -10,14 +10,14 @@ import '../components/CSS/menu.css'
 function Menu() {
   return (
     <section id="menu" className="menu section-bg">
-      <div className="container" data-aos="fade-up">
+      <div className="container">
 
         <div className="section-header">
           <h2>Our Menu</h2>
           <p>Check Our <span>Yummy Menu</span></p>
         </div>
 
-        <ul className="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
+        <ul className="nav nav-tabs d-flex justify-content-center">
 
           <li className="nav-item">
             <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
@@ -45,7 +45,7 @@ function Menu() {
 
         </ul>
 
-        <div className="tab-content" data-aos="fade-up" data-aos-delay="300">
+        <div className="tab-content">
 
           <div className="tab-pane fade active show" id="menu-starters">
 
@@ -57,7 +57,7 @@ function Menu() {
             <div className="row gy-5">
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-1.png" className="glightbox"><img src={img1} className="menu-img img-fluid" alt=""/></a>
+                <img src={img1} className="menu-img img-fluid" alt=""/>
                 <h4>Magnam Tiste</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -68,7 +68,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-2.png" className="glightbox"><img src={img2} className="menu-img img-fluid" alt=""/></a>
+                <img src={img2} className="menu-img img-fluid" alt=""/>
                 <h4>Aut Luia</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -79,7 +79,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-3.png" className="glightbox"><img src={img3} className="menu-img img-fluid" alt=""/></a>
+                <img src={img3} className="menu-img img-fluid" alt=""/>
                 <h4>Est Eligendi</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -90,7 +90,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-4.png" className="glightbox"><img src={img4} className="menu-img img-fluid" alt=""/></a>
+                <img src={img4} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -101,7 +101,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-5.png" className="glightbox"><img src={img6} className="menu-img img-fluid" alt=""/></a>
+                <img src={img6} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -112,7 +112,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-6.png" className="glightbox"><img src={img6} className="menu-img img-fluid" alt=""/></a>
+                <img src={img6} className="menu-img img-fluid" alt=""/>
                 <h4>Laboriosam Direva</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -135,7 +135,7 @@ function Menu() {
             <div className="row gy-5">
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-1.png" className="glightbox"><img src={img1} className="menu-img img-fluid" alt=""/></a>
+                <img src={img1} className="menu-img img-fluid" alt=""/>
                 <h4>Magnam Tiste</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -146,7 +146,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-2.png" className="glightbox"><img src={img2} className="menu-img img-fluid" alt=""/></a>
+                <img src={img2} className="menu-img img-fluid" alt=""/>
                 <h4>Aut Luia</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -157,7 +157,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-3.png" className="glightbox"><img src={img3} className="menu-img img-fluid" alt=""/></a>
+                <img src={img3} className="menu-img img-fluid" alt=""/>
                 <h4>Est Eligendi</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -168,7 +168,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-4.png" className="glightbox"><img src={img4} className="menu-img img-fluid" alt=""/></a>
+                <img src={img4} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -179,7 +179,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-5.png" className="glightbox"><img src={img5} className="menu-img img-fluid" alt=""/></a>
+                <img src={img5} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -190,7 +190,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-6.png" className="glightbox"><img src={img6} className="menu-img img-fluid" alt=""/></a>
+                <img src={img6} className="menu-img img-fluid" alt=""/>
                 <h4>Laboriosam Direva</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -213,7 +213,7 @@ function Menu() {
             <div className="row gy-5">
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-1.png" className="glightbox"><img src={img1} className="menu-img img-fluid" alt=""/></a>
+                <img src={img1} className="menu-img img-fluid" alt=""/>
                 <h4>Magnam Tiste</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -224,7 +224,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-2.png" className="glightbox"><img src={img2} className="menu-img img-fluid" alt=""/></a>
+                <img src={img2} className="menu-img img-fluid" alt=""/>
                 <h4>Aut Luia</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -235,7 +235,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-3.png" className="glightbox"><img src={img3} className="menu-img img-fluid" alt=""/></a>
+                <img src={img3} className="menu-img img-fluid" alt=""/>
                 <h4>Est Eligendi</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -246,7 +246,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-4.png" className="glightbox"><img src={img4} className="menu-img img-fluid" alt=""/></a>
+                <img src={img4} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -257,7 +257,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-5.png" className="glightbox"><img src={img5} className="menu-img img-fluid" alt=""/></a>
+                <img src={img5} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -268,7 +268,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-6.png" className="glightbox"><img src={img6} className="menu-img img-fluid" alt=""/></a>
+                <img src={img6} className="menu-img img-fluid" alt=""/>
                 <h4>Laboriosam Direva</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -291,7 +291,7 @@ function Menu() {
             <div className="row gy-5">
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-1.png" className="glightbox"><img src={img1} className="menu-img img-fluid" alt=""/></a>
+                <img src={img1} className="menu-img img-fluid" alt=""/>
                 <h4>Magnam Tiste</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -302,7 +302,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-2.png" className="glightbox"><img src={img2} className="menu-img img-fluid" alt=""/></a>
+                <img src={img2} className="menu-img img-fluid" alt=""/>
                 <h4>Aut Luia</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -313,7 +313,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-3.png" className="glightbox"><img src={img3} className="menu-img img-fluid" alt=""/></a>
+                <img src={img3} className="menu-img img-fluid" alt=""/>
                 <h4>Est Eligendi</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -324,7 +324,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-4.png" className="glightbox"><img src={img4} className="menu-img img-fluid" alt=""/></a>
+                <img src={img4} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -335,7 +335,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-5.png" className="glightbox"><img src={img5} className="menu-img img-fluid" alt=""/></a>
+                <img src={img5} className="menu-img img-fluid" alt=""/>
                 <h4>Eos Luibusdam</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
@@ -346,7 +346,7 @@ function Menu() {
               </div>
 
               <div className="col-lg-4 menu-item">
-                <a href="assets/menu/menu-item-6.png" className="glightbox"><img src={img6} className="menu-img img-fluid" alt=""/></a>
+                <img src={img6} className="menu-img img-fluid" alt=""/>
                 <h4>Laboriosam Direva</h4>
                 <p className="ingredients">
                   Lorem, deren, trataro, filede, nerada
