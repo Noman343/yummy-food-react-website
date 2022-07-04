@@ -5,7 +5,7 @@ import { BrowserRouter} from "react-router-dom";
 function Navbar() {
   const [heroActive, setHeroActive] = useState(true);
   const toggleHeroClass = () => {
-    setHeroActive(!heroActive);
+    setHeroActive(true);
     setAboutActive(false);
     setMenuActive(false);
     setBookingActive(false);
@@ -13,7 +13,7 @@ function Navbar() {
 
   const [aboutActive, setAboutActive] = useState(false);
   const toggleAboutClass = () => {
-    setAboutActive(!aboutActive);
+    setAboutActive(true);
     setHeroActive(false);
     setMenuActive(false);
     setBookingActive(false);
@@ -21,7 +21,7 @@ function Navbar() {
 
   const [menuActive, setMenuActive] = useState(false);
   const toggleMenuClass = () => {
-    setMenuActive(!menuActive);
+    setMenuActive(true);
     setHeroActive(false);
     setAboutActive(false);
     setBookingActive(false);
@@ -65,7 +65,7 @@ function Navbar() {
 
   const [bookingActive, setBookingActive] = useState(false);
   const toggleBookingClass = () => {
-    setBookingActive(!bookingActive);
+    setBookingActive(true);
     setHeroActive(false);
     setAboutActive(false);
     setMenuActive(false);
@@ -242,6 +242,7 @@ function Navbar() {
 
               <li className="nav-text">
                 <a href="#book-a-table"
+                className={bookingActive ? "active" : null}
                 onClick={toggleBookingClass}
                 >Contact</a>
               </li>
