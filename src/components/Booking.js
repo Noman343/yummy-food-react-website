@@ -3,15 +3,15 @@ import "./CSS/booking.css";
 import img from "../assets/reservation.jpg";
 
 function Booking() {
-  const [name, setName] = React.useState("");
-  const [email, setEmail] = React.useState("");
-  const [phone, setPhone] = React.useState("");
-  const [date, setDate] = React.useState("");
-  const [time, setTime] = React.useState("");
-  const [guest, setGuest] = React.useState("");
-  const [message, setMessage] = React.useState("");
-  const [error, setError] = React.useState("");
-  const [success, setSuccess] = React.useState("");
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [date, setDate] = useState("");
+  const [time, setTime] = useState("");
+  const [guest, setGuest] = useState("");
+  const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
 
   function formSubmit(e) {
     e.preventDefault();
